@@ -1,17 +1,31 @@
 {
   "version": "0.0.0.2",
-
-  "files": [ "CMS.js", "CMS.html", "nav.html", "cms_nav.html", "TreeMenu.html", "pagecontrolsdialog.html", "layouts.html", "layouts.js" ],
-  "scripts": [ "nav.js", "pagecontrolsdialog.js" ],
+  "files": [
+    "CMS.js",
+    "CMS.html",
+    "nav.html",
+    "cms_nav.html",
+    "TreeMenu.html",
+    "pagecontrolsdialog.html",
+    "layouts.html",
+    "layouts.js"
+  ],
+  "scripts": [
+    "nav.js",
+    "pagecontrolsdialog.js"
+  ],
   "navname": "cms_nav",
-  "dependencies": [ "nodulus_cms" ],
+  "dependencies": [
+    "nodulus_cms"
+  ],
   "routes": [
     {
-      "route": "/cms",
+      "route": "/",
       "path": "cms.js"
     }
   ],
-  "module": { "name": "@nodulus/cms" },
-  "npm": { }
-  
+  "module": {
+    "name": "@nodulus/cms"
+  },
+  "npm": {}
 }
